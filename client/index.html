@@ -7,7 +7,27 @@
     <title>Hello, World</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+        <div id="unity-loading-bar">
+          <div id="unity-logo"></div>
+          <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
+          </div>
+        </div>
+        <div id="unity-warning"> </div>
+        <div id="unity-footer">
+          <div id="unity-logo-title-footer"></div>
+          <div id="unity-fullscreen-button"></div>
+          <div id="unity-build-title">Disc-Card</div>
+        </div>
+      </div>
+    </div>
+  </div>
     <script type="module" src="/main.js"></script>
+    
   </body>
 </html>
+
+    

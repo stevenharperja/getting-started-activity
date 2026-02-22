@@ -17,7 +17,9 @@ export default defineConfig({
     },
     allowedHosts: [
       "butler-math-michael-gtk.trycloudflare.com",
-      "medicines-duplicate-joel-tim.trycloudflare.com"
+      "medicines-duplicate-joel-tim.trycloudflare.com",
+      "retirement-passed-journals-moms.trycloudflare.com",
+      "measure-simulations-contractor-album.trycloudflare.com"
     ]
   },
 });
