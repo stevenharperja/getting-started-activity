@@ -15,5 +15,9 @@ export default defineConfig({
     hmr: {
       clientPort: 443,
     },
+    allowedHosts: [
+      "butler-math-michael-gtk.trycloudflare.com",
+      "medicines-duplicate-joel-tim.trycloudflare.com"
+    ]
   },
 });
